@@ -14,6 +14,5 @@ namespace CurrencyRateService.Models
         public string _name;
         public string _nameUA;
         public string _exchangeDate;
-
     }
 }
