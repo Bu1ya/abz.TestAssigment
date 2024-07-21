@@ -60,3 +60,5 @@ Make sure that you stop the service before uninstalling it.
 Check log files in the `Logs` directory for errors and service activity. In the `Logs\History` directory, you will find logs from previous uses.
 
 If you can't find the service in the Services management console after installation, ensure that you ran CMD in Administrator mode.
+
+If that doesn't work, navigate to the CurrencyRateService.exe file and open the properties. Check if there is a message at the bottom of the General tab: `Security: This file came from another computer and might be blocked to help protect this computer.` If so, click the unlock button next to the message
