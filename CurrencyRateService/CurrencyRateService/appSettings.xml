@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <FetchInterval>3600</FetchInterval>
+  <OutputFormat>xml</OutputFormat>
+  <OutputFilePath>C:\Work\AbzTest\result.xml</OutputFilePath>
+</Config>
