@@ -95,10 +95,10 @@ namespace CurrencyRateService
             root.AppendChild(fetchInterval);
             root.AppendChild(outputFormat);
             root.AppendChild(outputFilePath);
-
-            Logger.Instance().LogInfo($"{Assembly.GetExecutingAssembly().Location.Replace("CurrencyRateService.exe", "Result")}");
-
+            
             xmlDoc.Save($"{Assembly.GetExecutingAssembly().Location.Replace("CurrencyRateService.exe", "AppSettings.xml")}");
+
+            Logger.Instance().LogInfo("Configuration file created");
         }
 
         static private void ExecuteCommandAsAdmin(string command)
@@ -112,6 +112,15 @@ namespace CurrencyRateService
 
             // Starting process
             Process.Start(processStartInfo);
+
+            if (command.Contains("-i"))
+            {
+                Logger.Instance().LogInfo("Service installed");
+            }
+            if (command.Contains("-u"))
+            {
+                Logger.Instance().LogInfo("Service uninstalled");
+            }
         }
     }
 }

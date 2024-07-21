@@ -71,6 +71,7 @@ namespace CurrencyRateService
         {
             if (_worker != null && _worker.IsAlive)
             {
+                Logger.Instance().LogInfo("Service stop");
                 Logger.Instance().SaveLog();
                 _worker.Abort();
             }
