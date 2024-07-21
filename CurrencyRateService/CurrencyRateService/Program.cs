@@ -70,7 +70,7 @@ namespace CurrencyRateService
                     }
                     else
                     {
-                        return;
+                        continue;
                     }
                 }
             }
@@ -84,7 +84,7 @@ namespace CurrencyRateService
             xmlDoc.AppendChild(root);
 
             XmlElement fetchInterval = xmlDoc.CreateElement("FetchInterval");
-            fetchInterval.InnerText = "36";
+            fetchInterval.InnerText = "3600";
 
             XmlElement outputFormat = xmlDoc.CreateElement("OutputFormat");
             outputFormat.InnerText = "xml";
