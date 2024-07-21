@@ -1,10 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
-using CsvHelper;
 using CurrencyRateService.Models;
 using CurrrencyRatesService;
-using System;
 using System.Text;
 
 namespace CurrencyRateService

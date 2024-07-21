@@ -1,16 +1,4 @@
-﻿using System.Configuration;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Linq;
-using System.Net.Http;
-using System.ServiceProcess;
-using System.Threading;
-using System.Threading.Tasks;
-using System.IO;
-using System.Xml.Linq;
+﻿using System.Xml.Linq;
 using CurrencyRateService;
 
 namespace CurrrencyRatesService

@@ -1,14 +1,8 @@
 ﻿using CurrrencyRatesService;
-using System;
 using System.Diagnostics;
-using System.IO;
 using System.Reflection;
 using System.ServiceProcess;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
-using System.Xml.Linq;
 using System.Xml;
 
 namespace CurrencyRateService
