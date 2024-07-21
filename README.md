@@ -62,3 +62,8 @@ Check log files in the `Logs` directory for errors and service activity. In the 
 If you can't find the service in the Services management console after installation, ensure that you ran CMD in Administrator mode.
 
 If that doesn't work, navigate to the CurrencyRateService.exe file and open the properties. Check if there is a message at the bottom of the General tab: `Security: This file came from another computer and might be blocked to help protect this computer.` If so, click the unlock button next to the message
+
+# Documentation
+You can also check out the high-level code overview [document](https://github.com/Bu1ya/abz.TestAssigment/blob/main/Code_Structure_and_Modules_Overview.md)
+
+And [document](https://github.com/Bu1ya/abz.TestAssigment/blob/main/External_APIs_and_Libraries_Documentation.md) which lists the packages I used to develop the service
